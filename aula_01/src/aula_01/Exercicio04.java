@@ -11,7 +11,7 @@ public class Exercicio04 {
 			
 			Scanner leia = new Scanner(System.in);
 			
-			float n1, n2, n3, n4, dif1, dif2;
+			float n1, n2, n3, n4, dif1;
 
 			System.out.println("Digite o primeiro numero:");
 			n1 = leia.nextFloat();
