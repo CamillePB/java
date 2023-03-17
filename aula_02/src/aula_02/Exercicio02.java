@@ -15,15 +15,15 @@ public class Exercicio02 {
 
 		if ((n % 2) == 0) {
 			if (n >= 0) {
-				System.out.println("O Número 2 é par e positivo!");
+				System.out.println("O Número " + n + " é par e positivo!");
 			} else {
-				System.out.println("O Número -2 é par e negativo!");
+				System.out.println("O Número " + n + " é par e negativo!");
 			}
 		} else if ((n % 2) != 0) {
 			if (n <= 0) {
-				System.out.println("O Número -3 é ímpar e negativo!");
+				System.out.println("O Número " + n + " é ímpar e negativo!");
 			} else {
-				System.out.println("O Número 3 é ímpar e positivo!");
+				System.out.println("O Número " + n + " é ímpar e positivo!");
 			}
 		}
 
