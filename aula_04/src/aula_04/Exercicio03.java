@@ -15,7 +15,7 @@ public class Exercicio03 {
 			for (int c = 0; c < matriz.length; c++) {
 				System.out.println("Digite um número: ");
 				matriz[i][c] = leia.nextInt();
-
+//teste
 			}
 
 		}
