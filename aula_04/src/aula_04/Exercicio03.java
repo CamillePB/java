@@ -15,7 +15,7 @@ public class Exercicio03 {
 			for (int c = 0; c < matriz.length; c++) {
 				System.out.println("Digite um número: ");
 				matriz[i][c] = leia.nextInt();
-//teste
+
 			}
 
 		}
@@ -32,6 +32,7 @@ public class Exercicio03 {
 		System.out.println("Soma dos Elementos da Diagonal Principal: " + somaP);
 		System.out.println("Elementos da Diagonal Secundária: " + diagonalS);
 		System.out.println("Soma dos Elementos da Diagonal Secundária: " + somaS);
+
 	}
 
 }

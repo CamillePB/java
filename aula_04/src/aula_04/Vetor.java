@@ -1,13 +1,11 @@
 package aula_04;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Vetor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		Scanner leia = new Scanner(System.in);
 
 		int vetorInt[] = { 4, 5, 7, 6, 10, 1, 3, 2, 9, 8 };
