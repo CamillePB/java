@@ -8,21 +8,41 @@ public class Exercicio01 {
 		// TODO Auto-generated method stub
 		Scanner leia = new Scanner(System.in);
 
+		/*
+		 * int numero; int vetorInt[] = { 4, 5, 7, 6, 10, 1, 3, 2, 9, 8 }; boolean found
+		 * = false;
+		 * 
+		 * System.out.println("Digite um número: "); numero = leia.nextInt();
+		 * 
+		 * for (int i = 0; i < vetorInt.length; i++) { if (vetorInt[i] == numero) {
+		 * System.out.println(" O Número " + numero + " está na posição: " + i); found =
+		 * true; }
+		 * 
+		 * }
+		 * 
+		 * if (found == false) { System.out.println("O número " + numero +
+		 * "não foi encontrado!"); }
+		 */
+
 		int vetorInt[] = { 2, 5, 1, 3, 4, 9, 7, 8, 10, 6 };
 		int numero;
+		boolean num = false;
 
 		System.out.println("Digite um número: ");
-		numero = leia.nextInt();		
+		numero = leia.nextInt();
 
 		for (int i = 0; i < vetorInt.length; i++) {
 			if (vetorInt[i] == numero) {
 				System.out.println("O número " + numero + " está na posição " + i);
-				i = vetorInt.length;			
-			}else {
-				System.out.println("O número " + numero + " não foi encontrado");
-				i = vetorInt.length;
+				num = true;
 			}
-			
+
+		}
+
+		if (num == false) {
+
+			System.out.println("O número " + numero + " não foi encontrado");
+
 		}
 	}
 
