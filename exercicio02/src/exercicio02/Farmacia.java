@@ -65,7 +65,7 @@ public class Farmacia {
 		NumberFormat nfMoeda = NumberFormat.getCurrencyInstance(); // utiliza o formato de moeda do Wind do PC
 
 		System.out.println("**************************************");
-		System.out.println("              REMÉDIO               ");
+		System.out.println("                REMÉDIO               ");
 		System.out.println("**************************************");
 		System.out.println("Id: " + this.id);
 		System.out.println("Nome: " + this.nome);

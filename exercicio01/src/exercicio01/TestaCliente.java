@@ -6,13 +6,9 @@ public class TestaCliente {
 		// TODO Auto-generated method stub
 		Cliente cli = new Cliente("45359546867", 07600000, 22, "Camille", "11953236998");
 		cli.visualizar();
-		
-		cli.setCpf("165934043");
-		cli.setCep(07600233);
-		cli.setIdade(20);
-		cli.setNome("Joao");
-		cli.setTelefone("11976587468");
-		cli.visualizar();
+
+		Cliente cli2 = new Cliente("165934043", 07600233, 20, "Joao", "11976587468");
+		cli2.visualizar();
 	}
 
 }

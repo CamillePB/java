@@ -13,12 +13,8 @@ public class TestaFarmacia {
 		
 		LocalDate dataL2 = LocalDate.of(2020, 1, 10);
 		LocalDate data2 = LocalDate.of(2022, 8, 20);
-		far.setId(2);
-		far.setNome("Paracetamol");
-		far.setDataLote(dataL2);
-		far.setDataVencimento(data2);
-		far.setPreco(5.0f);
-		far.visualizar();
+		Farmacia far2 = new Farmacia(2, "Paracetamol", dataL2, data2, 5.0f);
+		far2.visualizar();
 	}
 
 }
