@@ -1,15 +1,15 @@
 package exercicio01;
 
 public class Cliente {
-	private String cpf;
+	private String sexo;
 	private int cep;
 	private int idade;
 	private String nome;
 	private String telefone;
 
-	public Cliente(String cpf, int cep, int idade, String nome, String telefone) {
+	public Cliente(String sexo, int cep, int idade, String nome, String telefone) {
 		super();
-		this.cpf = cpf;
+		this.sexo = sexo;
 		this.cep = cep;
 		this.idade = idade;
 		this.nome = nome;
@@ -18,14 +18,14 @@ public class Cliente {
 
 	
 
-	public String getCpf() {
-		return cpf;
+	public String getSexo() {
+		return sexo;
 	}
 
 
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
 	}
 
 
@@ -83,7 +83,7 @@ public class Cliente {
 		System.out.println("**************************************");
 		System.out.println("           DADOS DA CLIENTE           ");
 		System.out.println("**************************************");
-		System.out.println("CPF: " + this.cpf);
+		System.out.println("Sexo: " + this.sexo);
 		System.out.println("CEP: " + this.cep);
 		System.out.println("Idade: " + idade);
 		System.out.println("Nome: " + this.nome);
