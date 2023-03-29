@@ -11,7 +11,7 @@ public class Menu {
 		int opcao, tipo;
 		while (true) {
 
-			System.out.println(Cores.TEXT_GREEN + Cores.ANSI_BLACK_BACKGROUND
+			System.out.println(Cores.TEXT_YELLOW+ Cores.ANSI_BLACK_BACKGROUND
 					+ "*****************************************************");
 			System.out.println("                                                     ");
 			System.out.println("                     Java Coffee                     ");
